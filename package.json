@@ -1,0 +1,25 @@
+{
+  "name": "hs_server",
+  "version": "1.0.0",
+  "description": "ProjectHS Game server",
+  "main": "./build/index.js",
+  "scripts": {
+    "run": "tsc && node ./build/index.js",
+    "start": "nodemon -e ts --exec \"npm run run\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gze1206/projecths_server.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/node": "^13.7.1",
+    "@types/socket.io": "^2.1.4",
+    "@types/uuid": "^3.4.7",
+    "axios": "^0.19.2",
+    "socket.io": "^2.3.0",
+    "typescript": "^3.7.5",
+    "uuid": "^3.4.0"
+  }
+}
