@@ -17,7 +17,7 @@
     "@types/node": "^13.7.1",
     "@types/socket.io": "^2.1.4",
     "@types/uuid": "^3.4.7",
-    "axios": "^0.19.2",
+    "axios": "^0.21.1",
     "socket.io": "^2.3.0",
     "typescript": "^3.7.5",
     "uuid": "^3.4.0"
